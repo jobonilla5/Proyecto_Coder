@@ -1,0 +1,181 @@
+/**************Estructura CSS Proyecto CODERHOUSE**************/
+/* Estructuras - Etiquetas */
+header{
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    background-color:black;
+}
+footer{
+    border-top: #fac800 1px solid;
+    margin: 50px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Michroma', sans-serif;
+    font-size: larger;
+    color: #fac800;
+}
+
+/* Estilos textos*/
+/*  | font-family: 'Michroma', sans-serif;    | 
+    | font-family: 'Montserrat', sans-serif;  | 
+    | font-family: 'Roboto', sans-serif;      |
+*/
+
+.titulos{
+    font-family: 'Michroma', sans-serif;
+    font-weight: 900;
+    color: rgba(27, 27, 197, 0.836);
+    margin: 25px;
+    padding: 9px;
+    border: 1px;
+}
+.container__subtitulos{
+    font-family: 'Michroma', sans-serif;
+    font-weight: 900;
+    font-size:xx-large;
+    text-align: center;
+    color: #fac800;
+    margin: 50px;
+    padding: 9px;
+    border: 1px;
+}
+.textos{
+    font-family: 'Michroma', sans-serif;
+    font-style: italic ;
+    font-size: large;
+    color: lightyellow;
+    text-align: center;
+    margin: 40px;
+    padding: 19px;
+    border: 1px;
+}
+.textlogo{
+    font-family: 'Michroma';
+    font-size: xx-large;
+}
+.nav__nav-item--textnav{
+    font-family: 'Michroma';
+    color: #fac800;
+}
+.textfoot{
+    font-family: 'Michroma', sans-serif;
+    font-style: italic ;
+    font-size: large;
+    color: lightyellow;
+    text-align: center;
+    margin: 15px;
+    padding: 14px;
+    border: 1px;
+}
+.textform{
+    font-family: 'Michroma', sans-serif;
+    font-size:small;
+    background-color: #fac800;
+}
+.textformOpt{
+    font-family: 'Michroma', sans-serif;
+    font-size:small;
+    background-color: white;
+}
+/* Images */
+.title{
+    background-color: black;
+}
+
+.serv{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px ;
+    margin: 15px;
+    transition: .5s;
+
+}
+.serv:hover{
+    transform: scale(1.1);
+}
+.imgserv{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px ;
+    margin: auto;
+    display: block;
+    transition: .5s;
+
+}
+.imgserv:hover{
+    transform: scale(1.1);
+}
+
+section 
+    ul 
+        li 
+            img{
+                background-color: #fac800;
+                border-radius: 25px;
+                padding: 10px;
+                margin: 10px;
+            }
+section 
+       article
+            ul 
+                li 
+                    img{
+                        background-color: #fac800;
+                        border-radius: 25px;
+                        padding: 10px;
+                        margin: 10px;
+                    }
+
+/* Estilos */
+.contInfo{
+    justify-content: center;
+    margin: 15px;
+}
+
+.contInfo__infocomp{
+    display:flex;
+    flex-direction: column;
+    margin: 60px;
+    padding: 15px;
+    width: fit-content;
+}
+.contInfo__infocomp--infocompli{
+    margin: 15px;
+    padding: 4px;
+    border: 1px;
+    list-style: none ;
+    font-family: 'Michroma', sans-serif;
+    font-weight: 700;
+    color: lightyellow;
+    align-items: center;
+}
+
+.container__navSocialnet{
+    list-style: none;
+    margin: 20px;
+    text-align: center;
+ }
+.container__navSocialnet--socialnet{
+    font-family: 'Michroma', sans-serif;
+    margin: 15px;
+    text-align: center;
+    color: lightyellow;
+}
+
+
+
+/*Estilo Google MAPS*/
+.map-container{
+    margin: 25px;
+    padding: 5px;
+    }
+iframe{
+    margin: 25px;
+    padding: 5px;
+    align-content: center;
+    border: black 2px solid;
+    justify-items: center;
+}
